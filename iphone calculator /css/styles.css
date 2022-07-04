@@ -1,0 +1,484 @@
+ *{
+     font-family: "Helvetica" , sans-serif;
+ }
+/* calculator frame/layout */
+
+#calculator-layout{
+    margin: auto auto;
+    background-color: black;
+    width: 400px;
+    height: 700px;
+    position: relative;
+    padding: 0;
+    z-index: -3;
+}
+
+li{
+    list-style: none;
+}
+div li{
+    color:white;
+  
+}
+/* first row  */
+.first-row{
+    position: relative;
+}
+.zero{
+    width:70px ;
+    height:70px;
+    position:absolute;
+    top:150px;
+    right:20px;
+}
+/* second row */
+/* .second-row{
+
+} */
+
+.second-row{
+    width:400px;
+    height: 80px;
+    position: absolute;
+    top: 240px;
+    margin:0;
+    z-index: -2;
+}
+.C{ 
+    font-size: xx-large;
+    
+    color:black;
+    display:inline;
+    position:absolute; 
+    margin: 0;
+    left:27px;
+    top: 16px;
+    display: inline;
+}
+.C-background-color{
+    background-color:#c6c2c2;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:15px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%;    
+}
+.img-1-background-color{
+    background-color:#c6c2c2;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:113px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%;   
+}
+.img-1{
+    width: 30px;
+    height: 30px;
+    position:absolute; 
+    margin: 0;
+    left:27px;
+    top: 22px;
+}
+.percentage-background-color{
+    background-color:#c6c2c2;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:210px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%;  
+}
+.percentage{
+    font-size: xx-large;
+    color:black;
+    display:inline;
+    position:absolute; 
+    margin: 0;
+    left:27px;
+    top: 16px;
+    display: inline;
+}
+.img-2-background-color{
+    background-color:#f69907;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:305px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%;  
+}
+.divide{
+    color: #f69907;
+    width: 30px;
+    height: 30px;
+    position:absolute; 
+    margin: 0;
+    left:25px;
+    top: 22px;
+}
+/* third row layout */
+
+.third-row{
+    
+    width:400px;
+    height: 80px;
+    position: absolute;
+    top: 330px;
+    margin:0;
+    z-index: -2;  
+}
+.background-color-seven{
+    background-color:#313131;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:15px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%;
+}
+.seven{
+    font-size: xx-large;
+    color:white;
+    display:inline;
+    position:absolute; 
+    margin: 0;
+    left:29px;
+    top: 16px;
+    display: inline;
+}
+.background-color-eight{
+    background-color:#313131;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:113px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%;   
+}
+.eight{
+    font-size: xx-large;
+    color:white;
+    display:inline;
+    position:absolute; 
+    margin: 0;
+    left:30px;
+    top: 16px;
+    display: inline;
+}
+.background-color-nine{
+    background-color:#313131;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:210px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%;   
+}
+.nine{
+    font-size: xx-large;
+    color:white;
+    display:inline;
+    position:absolute; 
+    margin: 0;
+    left:30px;
+    top: 16px;
+    display: inline;
+}
+.img-3-background-color{
+    background-color:#f69907;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:305px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%;  
+}
+
+.multiply{
+    color: #f69907;
+    width: 25px;
+    height: 25px;
+    position:absolute; 
+    margin: 0;
+    left:29px;
+    top: 24px; 
+}
+/* fourth row layout */
+
+.fourth-row{
+    
+    width:400px;
+    height: 80px;
+    position: absolute;
+    top: 420px;
+    margin:0;
+    z-index: -2;  
+} 
+.background-color-four{
+    background-color:#313131;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:15px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%;
+}
+.four{
+    font-size: xx-large;
+    color:white;
+    display:inline;
+    position:absolute; 
+    margin: 0;
+    left:29px;
+    top: 16px;
+    display: inline;
+}
+.background-color-five{
+    background-color:#313131;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:113px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%;
+}
+.five{
+    font-size: xx-large;
+    color:white;
+    display:inline;
+    position:absolute; 
+    margin: 0;
+    left:30px;
+    top: 16px;
+    display: inline; 
+}
+.background-color-six{
+    background-color:#313131;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:210px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%; 
+}
+.six{
+    font-size: xx-large;
+    color:white;
+    display:inline;
+    position:absolute; 
+    margin: 0;
+    left:30px;
+    top: 16px;
+    display: inline;
+}
+.background-color-subtraction{
+    background-color:#f69907;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:305px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%;    
+}
+
+.subtraction{
+    color: white;
+    width: 25px;
+    height: 25px;
+    position:absolute; 
+    margin: 0;
+    left:29px;
+    top: 24px; 
+}
+
+/* fifth row layout */
+.fifth-row{
+    
+    width:400px;
+    height: 80px;
+    position: absolute;
+    top: 510px;
+    margin:0;
+    z-index: -2; 
+}
+.background-color-one{
+    background-color:#313131;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:15px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%;
+}
+.one{
+    font-size: xx-large;
+    color:white;
+    display:inline;
+    position:absolute; 
+    margin: 0;
+    left:29px;
+    top: 16px;
+    display: inline;
+}
+.background-color-two{
+    background-color: #313131;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:113px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%;
+}
+.two{
+    font-size: xx-large;
+    color:white;
+    display:inline;
+    position:absolute; 
+    margin: 0;
+    left:30px;
+    top: 16px;
+    display: inline; 
+}
+.background-color-three{
+    background-color:#313131;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:210px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%; 
+}
+.three{
+    font-size: xx-large;
+    color:white;
+    display:inline;
+    position:absolute; 
+    margin: 0;
+    left:30px;
+    top: 16px;
+    display: inline;
+}
+.background-color-addition{
+    background-color:#f69907;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:305px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%;    
+}
+.addition{
+    color: white;
+    width: 25px;
+    height: 25px;
+    position:absolute; 
+    margin: 0;
+    left:29px;
+    top: 24px;
+}
+/* sixth row layout */
+.sixth-row{
+   
+    width:400px;
+    height: 80px;
+    position: absolute;
+    top: 600px;
+    margin:0;
+    z-index: -2; 
+}
+.background-color-zero{
+    background-color:#313131;
+    width: 180px;
+    height:70px;
+    position:absolute;
+    left:15px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius: 40px;
+}
+.zero-two{
+    font-size: xx-large;
+    color:white;
+    display:inline;
+    position:absolute; 
+    margin: 0;
+    left:29px;
+    top: 16px;
+    display: inline;
+}
+.background-color-point{
+    background-color:#313131;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:210px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%; 
+}
+.point{
+    font-size: xx-large;
+    color:white;
+    display:inline;
+    position:absolute; 
+    margin: 0;
+    left:35px;
+    top: 16px;
+    display: inline;
+}
+.background-color-equal{
+    background-color:#f69907;
+    width: 80px;
+    height:70px;
+    position:absolute;
+    left:305px;
+    bottom: 5px;
+    display: inline-block;
+    z-index: -1;
+    border-radius:50%;    
+}
+.equal{
+    color: white;
+    width: 25px;
+    height: 25px;
+    position:absolute; 
+    margin: 0;
+    left:29px;
+    top: 24px;
+}
